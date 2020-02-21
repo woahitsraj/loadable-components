@@ -106,9 +106,6 @@ module.exports = (file, api) => {
 
                 prop.value = callExpr
               }
-            } else if (prop.value.type === 'Identifier') {
-              // if it's an identifier like `Loading`, let's just invoke it with a mocked-up props
-              invokeWithMockedUpProp(j, file, prop)
             }
 
             return prop
