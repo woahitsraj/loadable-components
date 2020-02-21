@@ -1,7 +1,7 @@
 {
   "name": "loadable-codemod-hyperlab",
   "description": "Various codemods related to @loadable/components for easier migration/ugprades.",
-  "version": "5.12.1",
+  "version": "5.12.0",
   "repository": "git@github.com:woahitsraj/loadable-components.git",
   "author": "Rajan Singh <rajan.singh@hyperlab.se>",
   "bin": {
