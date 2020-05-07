@@ -106,8 +106,10 @@ module.exports = (file, api) => {
 
                 prop.value = callExpr
               }
-            }
-
+            } else if (prop.value.type === "Identifier") {
+                const JSX = `<${prop.value.name} />`
+                prop.value = JSX  
+              }
             return prop
           }
 
